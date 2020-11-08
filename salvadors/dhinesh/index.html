@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="icon.png">
+    <title>Dhinesh Kumar</title>
+    <meta name="description" content= "Dhinesh Kumar" />
+    <meta name="robots" content= "index, follow">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+    <header>
+        <div class="menu-toggler" data-aos="fade-left" data-aos-delay="200">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="../../index.html" class="nav-link">Home</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="pop-up">
+            <div class="drop">
+                <div class="landing-text">
+                    <h1>Dhinesh Kumar</h1>
+                    <h6 class="line anim-type">SW Mech 2015-2020</h6>
+                </div>
+            </div>
+        </div>
+    </header>
+<!--About Start--------------------------------------------------------------------------------------------------------------->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="zoom-in-down">
+                <img src="images/profile.jpg" alt="">
+            </div>
+            <div class="about-details" data-aos="zoom-in-up">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>
+                     .........................
+                </p>
+                 <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.facebook.com/dhinesh.kumar.3766" target="blank" class="icon-list">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/_dhinesh_kumar/" target="blank" class="icon-list">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                         <li>
+                            <a href="https://www.linkedin.com/in/dhinesh-kumar-singaravel-1276b7179" target="blank" class="icon-list">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Footer Start------------------------------------------------------------------------------------------------------------------->
+    <footer>
+        <div class="copyright">
+            <p><a href="../../index.html" target="blank">Sagacious Salvadors</a>
+                </p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        $('[data-aos]').parent().addClass('hideOverflowOnMobile');
+    </script>
+    <script>
+        let loader = document.querySelector('.loader');
+        window.addEventListener('load', function () {
+            loader.parentElement.removeChild(loader);
+        });
+    </script>
+</body>
+</html>
